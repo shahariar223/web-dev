@@ -1,0 +1,38 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav > ul{
+    display: flex;
+    align-items: center
+}
+nav li{
+    list-style: none;
+   margin-right: 51px;
+}
+a{
+   text-decoration: none;
+   color: black;
+}
+nav h3{
+    font-size: 48px;
+    font-weight: bold;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    color: tomato;
+}
+.org{
+  /* width: 110px; */
+  /* height: 35px; */
+  font-size: 20px;
+  font-weight: 700;
+  padding: 17px 18px;
+  border: 0px;
+  background-color: tomato;
+  border-radius: 5px;
+  color: azure;
+}
