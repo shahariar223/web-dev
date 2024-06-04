@@ -2,6 +2,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px  200px;
 
 }
 nav > ul{
@@ -35,4 +36,27 @@ span{
   background-color: tomato;
   border-radius: 5px;
   color: azure;
+}
+.head{
+    background-color: #fff8f9;
+}
+.ban{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pic{
+    width: 400px;
+
+}
+.hi{
+    font-size: 30px;
+}
+.sul{
+    font-size: 48px;
+}
+p{
+    text-decoration: overline;
+    font-size: 16px;
 }
