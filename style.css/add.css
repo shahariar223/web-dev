@@ -126,11 +126,29 @@ main{
     background-color: #fff8f9;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.known{
+.known,.pra {
     color: rgba(1, 117, 1, 0.719);
     font-size: 18px;
 }
 .title-name{
     color: tomato;
     font-size: 22px;
+}
+main section{
+    margin-top: 130px;
+}
+.resume{
+    display: flex;
+    gap: 50px;
+}
+.pass{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.658);
+}
+.bsc{
+    font-size: 25px;
+}
+.cv{
+    margin-top: 50px;
+    text-align: center;
 }
