@@ -116,3 +116,21 @@ main{
 .name-text{
    font-weight: bold;
 }
+.skille{
+    display: flex;
+    gap: 20px; 
+}
+.skills{
+    padding: 30px;
+    border-radius: 3px;
+    background-color: #fff8f9;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.known{
+    color: rgba(1, 117, 1, 0.719);
+    font-size: 18px;
+}
+.title-name{
+    color: tomato;
+    font-size: 22px;
+}
