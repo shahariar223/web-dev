@@ -2,12 +2,12 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px  200px;
+    margin: 0px  200px; 
 
 }
 nav > ul{
     display: flex;
-    align-items: center 
+    align-items: center;
 }
 nav li{
     list-style: none;
@@ -39,7 +39,7 @@ span{
 }
 .head{
     background-color: #fff8f9;
-    background-image: url(../images/header_bg.png),url('../images/developer.png') ;
+    background-image: url(../images/header_bg.png),url('../images/developer.png') ; 
     background-repeat: no-repeat;
     background-position: bottom right,top left ;
     
@@ -162,7 +162,7 @@ footer{
     display: flex;
     padding: 130px 200px;
     margin-top: 120px;
-     gap: 100px ; 
+    gap: 100px ; 
 }
 .text-mesg{
     width: 50%;
@@ -180,4 +180,71 @@ footer{
     border-radius: 5px;
     background-color: #fff;
     border: 0;
+}
+@media screen and (max-width:576px) {
+    footer,.resume,.skille,.all,.ban,nav>ul,nav{
+        flex-direction: column;
+        padding: 10px;
+        margin-top: 60px;
+    }
+    nav{
+        align-items: end;
+    }
+    .pic{
+        width: 250px;
+    }
+    .text-mesg{
+        width: 100%;
+    }
+    .txt{
+        text-align: center;
+        padding: 10px;
+        font-size: 18px
+    }
+    .o{
+        margin-top: 10px;
+    }
+    .text_area input, textarea{
+        width: 50%;
+    }
+    nav{
+        margin: 0px 0px;
+    }
+    nav>ul{
+        gap: 10px;
+        margin: 0px 0px;
+    }
+
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    footer,.resume,.skille,.ban,nav>ul,nav{
+        flex-direction: column;
+        padding: 10px;
+        margin-top: 60px;
+    }
+    .pic{
+        width: 250px;
+    }
+    .text-mesg{
+        width: 100%;
+    }
+    .txt{
+        text-align: center;
+        padding: 10px;
+        font-size: 18px
+    }
+    .o{
+        margin-top: 10px;
+    }
+    .text_area input, textarea{
+        width: 80%;
+    }
+    nav{
+        align-items: end;
+        padding: 0px;
+    }
+    nav>ul{
+        gap: 10px;
+        padding: 0px;
+    }
 }
